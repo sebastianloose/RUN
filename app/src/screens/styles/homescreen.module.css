@@ -1,0 +1,128 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #f9fbfc;
+  padding: 30px 50px 0 50px;
+  overflow-y: scroll;
+}
+.headerFlexRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.greeting {
+  font-size: 30px;
+  color: #1e1b52;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+.greetingSubtitle {
+  color: #b4b6b7;
+}
+.fileNavigationContainer {
+  display: flex;
+  align-items: center;
+}
+.nextFileBtn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #37348e;
+  font-size: 25px;
+  box-shadow: 0 10px 20px rgba(55, 84, 170, 0.1);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.nextFileBtn:hover {
+  box-shadow: 0 10px 20px rgba(55, 84, 170, 0.3);
+}
+.nextFileBtnInactive {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #37348e90;
+  font-size: 25px;
+  box-shadow: 0 10px 20px rgba(55, 84, 170, 0.1);
+  transition: all 0.5s;
+}
+.fileNameContainer {
+  margin: 0 15px 0 15px;
+  color: #37348e;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+.statisticRow {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.statisticContainer {
+  width: 30%;
+  max-width: 400px;
+  height: 150px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(55, 84, 170, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.statisticContainerLabelBox {
+  display: flex;
+  margin-left: 30px;
+  font-size: 25px;
+  align-items: flex-end;
+}
+.statisticContainerLabel {
+  font-size: 20px;
+  margin-right: 10px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+.statisticContainerValue {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 20px;
+  margin-left: 30px;
+  letter-spacing: 0.6px;
+}
+.unit {
+  font-size: 30px;
+  margin-left: 10px;
+  color: #9b9b9b;
+}
+.mapContainer {
+  width: 100%;
+  height: 500px;
+  margin-top: 80px;
+  background-color: white;
+  box-shadow: 0 10px 30px rgba(55, 84, 170, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.noDataContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #f9fbfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.noDataHeadline {
+  font-size: 40px;
+  font-weight: 700;
+  color: #37348e;
+}
+.noDataSubtitle {
+  font-size: 20px;
+  color: #9b9b9b;
+}

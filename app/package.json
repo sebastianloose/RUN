@@ -1,0 +1,48 @@
+{
+  "name": "run",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "dotenv": "^8.2.0",
+    "firebase": "^8.0.2",
+    "gpx-for-runners": "^1.0.6",
+    "leaflet": "^1.6.0",
+    "leaflet-gpx": "^1.5.0",
+    "leaflet.awesome-markers": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-firebase-hooks": "^2.2.0",
+    "react-leaflet": "^2.7.0",
+    "react-loader-spinner": "^3.1.14",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "superagent": "^6.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
