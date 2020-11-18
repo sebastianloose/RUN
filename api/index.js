@@ -32,8 +32,8 @@ const db = new sqlite3.Database("./tracks.db", (err) => {
   console.log("DB loaded!");
 });
 
-app.listen(1617, () => {
-  console.log("Server listening on port 1617");
+app.listen(1618, () => {
+  console.log("Server listening on port 1618");
 });
 
 app.post("/addTrack", (req, res) => {

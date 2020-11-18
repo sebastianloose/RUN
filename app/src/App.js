@@ -7,7 +7,7 @@ import PrivateRoute from "./components/privateRoute";
 
 function App() {
   return (
-    <Router>
+    <Router basename={"/run"}>
       <AuthProvider>
         <Switch>
           <PrivateRoute path="/home" component={ContainerScreen} />

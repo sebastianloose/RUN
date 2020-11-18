@@ -1,5 +1,5 @@
 const superagent = require("superagent");
-const baseUrl = "http://localhost:1617";
+const baseUrl = "https://api.run.sebastianloose.de";
 
 const encodeTracks = (obj) => {
   for (let i = 0; i < obj.tracks.length; i++) {
